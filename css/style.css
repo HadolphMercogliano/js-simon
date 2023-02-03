@@ -1,7 +1,51 @@
-/* GENERICS */
+body {
+    background-color: #3535EC;
+    font-family: 'Livvic', sans-serif;
+    line-height: 1;
 
-/* HEADER */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-/* MAIN */
+.stage {
+    max-width: 500px;
+    margin: 0 auto;
+}
 
-/* FOOTER */
+.panel {
+    background-color: #120945;
+    padding: 16px 24px;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #DE7EB6;
+    margin-bottom: 24px;
+    font-size: 30px;
+}
+
+.counter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.counter-block {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+}
+
+.counter-block:last-child {
+    color: #F2AD41;
+}
+
+.counter-block-number {
+    font-size: 48px;
+}
+
+.counter-block-label {
+    font-size: 20px;
+}
